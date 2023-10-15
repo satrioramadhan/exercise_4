@@ -30,7 +30,7 @@ public class Tes {
                     Komputer k = data.searchByModel(key);
                     data.viewData(k);
                 }
-                case AppInterface.SHOW_ALL_DATA -> { // Menambahkan pilihan "Tampilkan Semua Data Komputer"
+                case AppInterface.SHOW_ALL_DATA -> { 
                     data.showAllData(data.komputer);
                 }
                 case AppInterface.EXIT -> {
